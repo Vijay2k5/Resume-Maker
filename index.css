@@ -1,0 +1,95 @@
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-image: url(./img/frame-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1682px;
+    height: 819px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 1116px;
+    top: 150px;
+    left: 283px;
+    font-family: "Inika";
+    font-weight: 400;
+    color: #2a2a2a;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .frame .span {
+    font-weight: 700;
+    font-size: 36px;
+  }
+  
+  .frame .text-wrapper-2 {
+    font-family: "Inria Sans";
+    font-size: 36px;
+    line-height: 36px;
+    position: absolute;
+    top: 300px;
+    left: 540px;
+    text-align: center;
+    color: rgb(100, 100, 100)   ;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 426px;
+    height: 100px;
+    top: 586px;
+    left: 628px;
+    background-color: #acd8fb;
+    border-radius: 21px;
+  }
+
+  .frame .rectangle:hover {
+    background-color: #73afe0;
+    border-radius: 21px;
+    cursor: pointer;
+  }
+  
+  .frame .text-wrapper-3 {
+    width: 426px;
+    height: 100px;
+    font-family: "Itim";
+    font-weight: 400;
+    color: #2a2a2a;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+
+    position: absolute;
+    top: 23px;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    top: 750px;
+    left: 1323px;
+    font-family: "Itim";
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,145 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-image: url(./img/frame-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1682px;
+    height: 819px;
+    position: relative;
+  }
+  
+  .frame .no-preview {
+    position: absolute;
+    width: 501px;
+    height: 707px;
+    top: 56px;
+    left: 884px;
+    background-color: #e3f3fd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .frame .icon-file {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 355px;
+    left: 234px;
+  }
+  
+  .frame .your-preview-will-be {
+    position: absolute;
+    top: 250px;
+    left: 155px;
+    font-family: "Inria Sans";
+    font-weight: 400;
+    color: #504d4d;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  #pre {
+    display: none;
+    position: absolute;
+    width: 501px;
+    height: 707px;
+    top: 56px;
+    left: 884px;
+    background-color: #e3f3fd;
+    border-radius: 20px;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 215px;
+    height: 83px;
+    top: 664px;
+    left: 1429px;
+    background-color: #acd8fb;
+    border-radius: 26px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 215px;
+    height: 83px;
+    top: 25px;
+    font-family: "Inika";
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .frame .rectangle:hover {
+    background-color: #73afe0;
+    border-radius: 26px;
+    cursor: pointer;
+  }
+  
+  .frame .previews {
+    position: absolute;
+    width: 769px;
+    height: 603px;
+    top: 108px;
+    left: 72px;
+    background-color: #e3f3fd;
+  }
+  
+  .frame #template1 {
+    position: absolute;
+    width: 195px;
+    height: 278px;
+    top: 163px;
+    left: 287px;
+    object-fit: cover;
+  }
+  
+  .frame #template2 {
+    position: absolute;
+    width: 195px;
+    height: 278px;
+    top: 163px;
+    left: 517px;
+    object-fit: cover;
+  }
+  
+  .frame #template3 {
+    position: absolute;
+    width: 195px;
+    height: 278px;
+    top: 163px;
+    left: 57px;
+    object-fit: cover;
+  }
+  
+  .frame .p {
+    position: absolute;
+    top: 36px;
+    left: 57px;
+    font-family: "Inika", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  #template1:hover, #template2:hover, #template3:hover {
+    cursor: pointer;
+    border: 2px solid #000000;
+  }
+  
